@@ -1,0 +1,154 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+html {
+    background-color:#FBFBFB;
+}
+
+body {
+    background: linear-gradient(90deg, #766DFB, #88F2FF);
+    height: 900px;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.active {
+    color: gray;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.barra__nav {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+}
+
+.barra__nav li {
+    margin: 0 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    width: 100px;
+    color: white;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.menu {
+    justify-self: end;
+}
+
+.menu__nav a:hover { 
+    color: gray;
+}
+
+#perfil {
+    display: flex;
+    justify-content: center;
+    max-height: 1100px;
+    padding-bottom: 100px;
+}
+
+.perfil__container {
+    display: flex;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+#perfil section {
+    flex: 2;
+    padding: 40px;
+    padding-right: 80px;
+}
+
+#perfil section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;   
+}
+
+#perfil aside {
+    flex: 1;
+    margin-top: 100px;
+    color: gray;
+}
+
+#perfil aside h3 {
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+#perfil aside h1 {
+    font-size: 65px;
+    margin: 0;
+    color: black;
+}
+
+#perfil aside h2 {
+    margin-bottom: 50px;
+    color: black;
+}
+
+#perfil aside p {
+    padding-right: 60px;
+    text-transform: initial;
+    line-height: 25px;
+}
+
+.contact ul {
+    display: inline;
+    text-transform: initial;
+} 
+
+.contact li {
+    margin: 20px 0;
+}
+
+.contact i {
+    color: rgb(115, 115, 219);
+    margin-right: 10px;
+}
+
+.social_media {
+    padding-top: 50px;
+}
+
+.social_media i {
+    margin-right: 20px;
+    color: blue;
+}
+
+.social_media i:hover {
+    margin-right: 20px;
+    color: gray;
+}
